@@ -11,10 +11,9 @@ body{
 }
 
 header{
-    background: linear-gradient(to left,rgb(0, 128, 255),rgb(0, 255, 8));
-    
+    background: rgb(0 0 0 / 80%);
     text-align: center;
-    color:#ffffff;
+    color: #ffffff;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -47,9 +46,15 @@ li{
     list-style: none;
     text-align: center;
     font-size: 24px;
+    background: rgba(0,0,0,0.7);
+    padding: 30px 15px 10px;
+    border-radius: 35px;
+    max-width: 300px;
 }
 li :nth-child(2){
-    color:rgb(0,128,255);
+    color: rgb(233 23 188);
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 section{
